@@ -1,0 +1,10 @@
+nums = list(map(int, input().split()))
+
+num_set = set()
+
+for num in nums:
+    if num in num_set:
+        print(num)
+        break
+    else:
+        num_set.add(num)
