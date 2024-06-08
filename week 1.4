@@ -1,0 +1,7 @@
+cost_price = int(input())
+repair_price = int(input())
+sale_price = int(input())
+amt_spent = cost_price+repair_price
+gain_amt = sale_price - amt_spent
+gain = (gain_amt*100)/amt_spent
+print("{0:.2f}".format(gain),"is the gain percent.")
