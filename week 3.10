@@ -1,0 +1,7 @@
+lt = input("")
+if(lt=="a" or lt=="e" or lt=="i" or lt=="o" or lt =="u" ):
+    print("It's a vowel.")
+elif(lt == "y"):
+    print("Sometimes it's a vowel... Sometimes it's a consonant.")
+else:
+    print("It's a consonant.")
