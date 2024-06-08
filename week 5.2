@@ -1,0 +1,14 @@
+str = input("")
+count_alph = 0
+count_num = 0
+count_sp = 0
+for x in str:
+    if((ord(x)>=65 and ord(x) <= (90)) or (ord(x)>=97 and ord(x)<=122)):
+        count_alph += 1
+    elif(ord(x) >= 48 and ord(x) <= 57):
+        count_num += 1
+    elif((ord(x) >= 33 and ord(x)<=47) or (ord(x)>=58 and ord(x)<=64) or (ord(x)>=94 and ord(x)<=96)):
+        count_sp += 1
+print(count_alph)
+print(count_num)
+print(count_sp)
